@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Statistics">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:text="Monthly Report" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Number of Patient Recorded: " />
+        <TextView
+            android:id="@+id/textMonth"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:text="0" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Diagnosis for the month: " />
+        <TextView
+            android:id="@+id/monthDiagnosis"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:text="0" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Number of Patient has Malaria: " />
+        <TextView
+            android:id="@+id/monthMalaria"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:text="0" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Number of Patient has Typhoid: " />
+        <TextView
+            android:id="@+id/monthTyphoid"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:text="0" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Number of Patient has PID: " />
+        <TextView
+            android:id="@+id/monthPid"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:text="0" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Number of Patient has PUD: " />
+        <TextView
+            android:id="@+id/monthPUD"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:text="0" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Number of Patient has Other: " />
+        <TextView
+            android:id="@+id/monthOther"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:text="0" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_weight="2"
+            android:text="Quarterly Report" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="Male" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="Female" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:text="Number of Patient Recorded: " />
+        <TextView
+            android:id="@+id/quarterPatientMale"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="0" />
+        <TextView
+            android:id="@+id/quarterPatientFemale"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:text="0" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.3"
+            android:text="Number of Admission: " />
+        <TextView
+            android:id="@+id/quarterAdmissionMale"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="0" />
+        <TextView
+            android:id="@+id/quarterAdmissionFemale"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:text="0" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.6"
+            android:text="Number of Referral: " />
+        <TextView
+            android:id="@+id/quarterReferralMale"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="0" />
+        <TextView
+            android:id="@+id/quarterReferralFemale"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:text="0" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.5"
+            android:text="Number of Diagnosis:" />
+        <TextView
+            android:id="@+id/quarterDiagnosisMale"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="0" />
+        <TextView
+            android:id="@+id/quarterDiagnosisFemale"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:text="0" />
+    </LinearLayout>
+
+</LinearLayout>

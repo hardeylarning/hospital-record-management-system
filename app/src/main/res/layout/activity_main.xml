@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#668B00"
+    android:elevation="10dp"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:gravity="center"
+        >
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="@drawable/circle"-->
+<!--            android:gravity="center"-->
+<!--            android:text="HRMS"-->
+<!--            android:textColor="#ffffffff"-->
+<!--            android:textSize="20sp"-->
+<!--            />-->
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:src="@drawable/uniosun"/>
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:background="@drawable/textfield"
+            android:id="@+id/user_id"
+            android:paddingLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:hint="User Id"
+            />
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:background="@drawable/textfield"
+            android:id="@+id/user_password"
+            android:paddingLeft="15dp"
+            android:inputType="textPassword"
+            android:layout_marginTop="10dp"
+            android:hint="*******"
+            />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn"
+            android:text="Sign in"
+            android:layout_marginTop="15dp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:fontFamily="sans-serif-medium"
+            android:textColorLink="#ffbb00"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:elevation="8dp"
+            android:id="@+id/btn" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HRMS</string>
+    <string name="home" translatable="false"> You are welcome to Osun State University Health Centre. We provide Health Services to students and Staff in all the six campuses of the Institution.</string>
+    <string name="about1" translatable="true"> Osun State University Health Care Centre is the Medical Centre in the University which provides medical services to student in school, staff and Health Attendant.</string>
+    <string name="about2"> The University health services department was established to cater for the overall health needs of the students, staff of the university. The clinic is located in the Campus and provided a comprehensive health care covering both the curative and preventive medicine.</string>
+    <string name="about3"> The following sections are fully staffed and equipped for optimal functions of the clinic.</string>
+</resources>
